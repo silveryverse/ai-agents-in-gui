@@ -1,0 +1,136 @@
+{
+  "description": "Agent HQ observer hooks for Codex. Edit the absolute script path if this checkout moves. Merge this hooks object into %USERPROFILE%\\.codex\\hooks.json, then review and trust it with /hooks in Codex.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|fork",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "commandWindows": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "timeout": 5,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "commandWindows": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "timeout": 5,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "commandWindows": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "timeout": 5,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "commandWindows": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "timeout": 5,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "commandWindows": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "timeout": 5,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "commandWindows": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "timeout": 5,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "commandWindows": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "timeout": 5,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "commandWindows": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "timeout": 5,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Interrupt": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "commandWindows": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "timeout": 3,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "commandWindows": "node \"D:\\opencode\\agents-gui\\integrations\\codex\\agent-office-hook.mjs\"",
+            "timeout": 3,
+            "async": false
+          }
+        ]
+      }
+    ]
+  }
+}
