@@ -3,6 +3,8 @@
 > This is the detailed engineering reference and verification log. See
 > [README.md](README.md) for the project overview and quick start.
 
+**Rajat Rawat** · [Portfolio](https://rajatrawat.netlify.app/)
+
 A local, read-only window into coding-agent sessions. Every session, including
 subagents, becomes a character in a small pixel-art office, walks to a room
 that matches its observed tool activity, and streams updates into a live event

@@ -1,5 +1,7 @@
 # Agent HQ - Pixel Office
 
+**Rajat Rawat** · [Portfolio](https://rajatrawat.netlify.app/)
+
 A local, read-only window into coding-agent sessions.
 
 Agent HQ turns each observed session and subagent into a character in a small

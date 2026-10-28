@@ -145,6 +145,43 @@ button {
   justify-content: flex-end;
 }
 
+.author-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 10px;
+  border: 1px solid rgba(94, 234, 212, 0.22);
+  background: rgba(94, 234, 212, 0.055);
+  color: #c8f3eb;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    border-color 160ms ease,
+    background 160ms ease,
+    color 160ms ease;
+}
+
+.author-link span {
+  color: var(--faint);
+  font-size: 8px;
+  letter-spacing: 0.12em;
+}
+
+.author-link:hover {
+  border-color: rgba(94, 234, 212, 0.5);
+  background: rgba(94, 234, 212, 0.11);
+  color: #ffffff;
+}
+
+.author-link:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
 .header-stat {
   display: flex;
   align-items: baseline;
